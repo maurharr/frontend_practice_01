@@ -1,0 +1,134 @@
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0; 
+}
+
+body{
+    background-color: #fdf7f780;
+}
+
+header {
+    padding-top: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+    gap: 50px;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.hero {
+    background: linear-gradient(to bottom, rgb(23, 70, 124), rgb(14, 104, 207));
+    min-height: 95vh;
+    padding: 30px;
+
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+    flex-wrap: wrap;
+    article {
+        width: 50%;
+        min-width: 400px;
+    }
+}
+
+.hero-image {
+    width: 100%;
+    min-width: 200px;
+}
+
+.hero div {
+    padding: 10px;
+}
+
+
+.hero-title {
+    max-width: 700px;
+    h1 {
+    color: white;
+    font-size: clamp(44px, 7vw, 87px);
+    font-weight: 900;
+    line-height: .92;
+    letter-spacing: -2px;
+    margin-bottom: 18px;
+    }
+    span {
+     color: #ecc850;
+    }
+}
+
+
+.hero-subtitle {
+    
+    p {
+        color: white;
+        font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.hero-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    button{
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        height: 60px;
+        font-weight: bold;
+        min-width: 100px;
+    }
+}
+
+.hero-stats {
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 8px;
+    button{
+        width: 120px;
+        min-width: 100px;
+        height: 90px;
+        text-align: left;
+        line-height: .92;
+        border-color: rgb(67, 119, 179);
+        background-color: #08437a65;
+        h5{
+            color: white;
+        }
+        small{
+            color: rgb(201, 200, 200);
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+
+}
+
+.accordion-button span {
+    display: flex;
+    flex-direction: column;
+    line-height: .50;
+    small {
+        color: gray;
+    }
+}
+
+.sala {
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 10px 15px 10px 15px;
+    
+    button {
+        font-size: 18px;
+    }
+}
